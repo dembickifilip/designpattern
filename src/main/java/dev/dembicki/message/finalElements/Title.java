@@ -1,6 +1,6 @@
-package dev.dembicki.finalElements;
+package dev.dembicki.message.finalElements;
 
-import dev.dembicki.cardelements.TextBlock;
+import dev.dembicki.message.cardelements.TextBlock;
 
 public class Title extends TextBlock {
     private String wrap = "true";

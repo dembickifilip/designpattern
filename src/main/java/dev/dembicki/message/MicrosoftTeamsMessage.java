@@ -1,4 +1,4 @@
-package dev.dembicki;
+package dev.dembicki.message;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class MicrosoftTeamsMessage {
     private String version;
     private List<Element> body;
 
-    public MicrosoftTeamsMessage(MicrosoftTeamsMessageBuilder builder) {
+    public MicrosoftTeamsMessage(MicrosoftTeamsMessageConcreteBuilder builder) {
         this.type = builder.type;
         this.$schema = builder.$schema;
         this.version = builder.version;

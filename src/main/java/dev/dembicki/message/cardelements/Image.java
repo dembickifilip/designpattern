@@ -1,4 +1,4 @@
-package dev.dembicki.cardelements;
+package dev.dembicki.message.cardelements;
 
 public class Image implements CardElement {
     private String url;
